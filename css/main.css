@@ -1,0 +1,62 @@
+/* CSS Document */
+html, body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 3% 5% 3% 5%;
+  background-color: #F2F2F2;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+.container-fluid {
+  padding: 0; }
+
+
+
+.page {
+  color: #737373;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+  }
+
+.page h2 {
+  padding-bottom: 20px;
+  border-bottom: solid 1px #9C9C9C;
+}
+
+.page h4 {
+  font-family: 'Libre Baskerville', serif;
+  font-style: italic;
+  color: #317bfc;
+}
+
+.page li {
+  
+  }
+
+
+li {
+  margin-bottom: 10px;
+  font-size: 18px; }
+
+a {
+  color: #9C9C9C;
+}
+
+a:hover {
+  color: #317bfc;
+}
+
+#nav {
+  height: 200px;
+  top: 50%;
+  margin-top: -100px;
+  z-index: 9;
+  position: fixed; }
+
+
+
+/*# sourceMappingURL=main.css.map */
+
+/*# sourceMappingURL=main.css.map */

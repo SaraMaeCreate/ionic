@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ionic Tutorial</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<!-- Optional Bootstrap theme -->
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link href="css/mediaqueries.css" rel="stylesheet" type="text/css">
+
+<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i" rel="stylesheet">
+
+
+<script src="js/jquery.min.js"></script>
+
+	<script>
+	$(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top
+	        }, 1000);
+	        return false;
+	      }
+	    }
+	  });
+	});
+	</script>
+
+
+</head>
+<body>
+
+
+
+<div class="container-fluid">
+
+<div id="pages" class="col-sm-9">
+
+      
+<div class="page" id="page1">
+	<h2>WHAT YOU'LL NEED</h2> <br>
+</div>
+
+<div class="page" id="page2">
+		<h2>DOWNLOAD AND SET-UP IONIC</h2> <br>
+
+		<h4>Go to Ionic Frameworks website</h4>
+			<ul>
+				<li>Click “Get Started” and follow along!</li>
+			</ul> <br>
+
+
+		<h4>Install Node.js</h4>
+			<ul>
+				<li>To built command line utilities</li>
+			</ul> <br>
+
+
+		<h4>Setup Ionic in Windows Command (npm)</h4>
+		<ul>
+			<li>Install What you need</li>
+				<ul>
+					<li>Type "npm install -g cordova ionic gulp" in the terminal</li>
+					<li>cd into destination file (I just put mine into my Documents)</li>
+					<li>In the terminal, create either a blank app or a starter pre-made by ionic (see the site)</li>
+						<ul>
+							<li>Example: Type "ionic start myApp sidemenu"</li>
+						</ul>
+					<li>Create testing server</li>
+						<ul>
+							<li>Type: Ionic Serve</li>
+						</ul>
+					<li>Choose Address (I chose local hosting)</li>
+					<li>Now you have a (local) site to view your app in!</li>
+					<li>Example: http://localhost:8100/#/app/playlists</li>
+					<li>cd into folder and type Ionic serve in terminal in order to gain IP for testing</li>
+				</ul>
+		</ul> <br>
+
+		<h4>Create a Github Repository from existing folder in Git Bash</h4>
+			<ul>
+				<li> Create a new Repo on Github (I named mine ionic-test-1)</li>
+				<li>cd into destination file (myApp)</li>
+				<li>Type "git init" in the terminal</li>
+				<ul>
+					<li>This initializes an empty Git repository in the myApp folder</li>
+				</ul>
+				<li>Finish commands</li>
+				<li>git add .</li>
+                <li>git commit -m 'create repository'</li>
+                <li>git remote add origin https://github.uconn.edu/smp13010/ionic-test-1.git</li>
+                	<ul>
+                    	<li>This tells the terminal where to push myApp folder contents</li>
+                    </ul>
+                <li>git push origin master</li>
+             </ul>
+				
+		<!--Customize ionic CSS <br>
+		CSS Components-->
+
+			<img src="screenshots/2-Create Repo From Existing Folder/3-create-repo.jpg" alt="create-repo terminal" class="img-responsive">
+
+	<!--<div class="col-md-6">
+		<iframe src="url of your app" width="320" height="568" scrolling="yes" sandbox="allow-scripts allow-popus allow-forms"></iframe>
+	</div>-->
+</div>
+
+
+<div class="page" id="page3">
+
+</div>
+
+
+<div class="page" id="page4">
+<h1>Here's the Steps</h1><br>
+
+</div>
+
+
+</div>
+
+
+    
+<div class="col-sm-3 col-sm-offset-9">
+	<div id="nav">
+		<ol>
+	        <a href="#page1"><li>Step One</li></a>
+	        <a href="#page2"><li>Step One</li></a>
+	        <a href="#page3"><li>Step One</li></a>
+	    </ol>
+    </div>
+</div>
+
+
+
+</div>
+
+
+
+
+
+<!-- <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script> -->
+<script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>   

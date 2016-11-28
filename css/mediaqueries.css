@@ -1,0 +1,46 @@
+
+  
+/*extra small*/
+
+@media screen and (max-width: 767px) {
+img {
+	width: 100%;
+}
+
+body, html {
+	margin: 0;
+	padding: 0;	
+}
+}
+
+
+/*small*/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+
+}
+	
+	 
+	
+
+
+/*medium*/
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+} 
+
+
+
+
+/*large*/
+
+@media screen and (min-width: 1200px) {
+
+}
+
+
+
+
+
+
