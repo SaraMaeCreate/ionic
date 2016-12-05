@@ -2,7 +2,7 @@
   
 /*extra small*/
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 499px) {
 img {
 	width: 100%;
 }
@@ -11,12 +11,16 @@ body, html {
 	margin: 0;
 	padding: 0;	
 }
+
+#page2 img {
+	width: 80%;	
+}
 }
 
 
 /*small*/
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 500px) and (max-width: 699px) {
 
 
 }
@@ -26,7 +30,7 @@ body, html {
 
 
 /*medium*/
-@media screen and (min-width: 992px) and (max-width: 1199px) {
+@media screen and (min-width: 700px) and (max-width: 899px) {
 
 } 
 
@@ -35,7 +39,7 @@ body, html {
 
 /*large*/
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 900px) {
 
 }
 
